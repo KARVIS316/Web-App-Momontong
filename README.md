@@ -1,2 +1,3 @@
-# Web-App-Momontong
-Create the Web Application for the first time 
+# Web-App-Momontong...
+is chorme app for productivity that have greeting, clock, memo and weather info.
+(Create the Web Application for the first time!!!)
