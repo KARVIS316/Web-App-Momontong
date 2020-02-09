@@ -1,0 +1,101 @@
+body{
+     background-color:#34495e;
+}
+
+button{
+     margin-right: 10px;
+     border-radius: 8px;
+}
+
+.form,
+.greetings{
+     color :#fff;
+     font-size: 26px;
+     display: none;   
+     cursor: default;
+     justify-content: center;
+}
+
+.showing{
+     font-size: 50px;
+     padding-top: 50px;
+     margin-top: 20px;
+     margin-bottom: 70px;
+     display: block;
+     display: flex;
+     justify-content: center;
+     user-select: none;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bgImage{
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+     animation: fadeIn .5s linear;
+     object-fit: cover;
+     pointer-events: none;
+ }
+
+ .clock{
+     color: #fff;  
+     font-size: 80px;
+     display: flex;
+     justify-content: center;
+     cursor: default;
+     user-select: none;
+ }
+
+ .clockStyle{
+     font-family: Arial;
+     font-weight: 500;
+     margin-bottom: 10px;
+     margin-top: 150px;
+ }
+
+ .toDoForm{
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     cursor: default;
+     user-select: none;
+ }
+
+ .toDoList{
+     color :#fff;
+     left: 50%;
+     top: 75%;
+     height: 300px;
+     padding-left: 0;
+     transform: translate(-50%, -50%);
+     justify-content: center;
+     cursor: default;
+     user-select: none;
+     position: absolute; 
+ }
+
+ .weather{
+     color :#fff;
+     font-size: 20px; 
+     width: 99.21629%;
+     bottom: 0;
+     padding-bottom: 50px;
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     cursor: default;
+     user-select: none;   
+ }
